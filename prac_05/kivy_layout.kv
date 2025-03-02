@@ -1,0 +1,13 @@
+# Modifying the .kv file content to add the new Label and adjust its size
+modified_kv_content = kv_content + """
+    Label:
+        text: "I did this :)"
+        size_hint_y: 0.1
+"""
+
+# Write the modified content back to the .kv file
+with open(kv_file_path, 'w') as kv_file:
+    kv_file.write(modified_kv_content)
+
+# Display the modified content to confirm the changes
+modified_kv_content[-500:]  # Show the last 500 characters of the updated .kv content
