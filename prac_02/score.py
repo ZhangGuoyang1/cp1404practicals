@@ -19,5 +19,4 @@ def main():
     print(f"Random score: {random_score:.2f} -> {get_score_result(random_score)}")
 
 
-if __name__ == "__main__":
-    main()
+main()
