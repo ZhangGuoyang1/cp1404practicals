@@ -18,5 +18,4 @@ def main():
     print_asterisks(password)
 
 
-if __name__ == "__main__":
-    main()
+main()
