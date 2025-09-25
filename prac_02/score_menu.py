@@ -42,6 +42,5 @@ def main():
     print(f"Farewell! Your final score was: {score:.2f}")
 
 
-if __name__ == "__main__":
-    main()
+main()
 
